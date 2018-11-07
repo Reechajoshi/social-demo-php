@@ -1,0 +1,9 @@
+function se_database("localhost", "root", "technology", "socialnetwork") {
+
+	  $this->database_connection = $this->database_connect($database_host, $database_username, $database_password);
+	  $this->database_select($database_name);
+	
+	  $this->log_stats = 1;
+	  $this->query_stats = Array();
+
+	}
